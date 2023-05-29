@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6236A151-7402-472C-95F5-4C4A58E1FA44}" SchemaVersion="110" RootDocumentID="{6D38412A-3790-43A4-AC19-90D3174DC1B0}" ParentDocumentID="{6D38412A-3790-43A4-AC19-90D3174DC1B0}">
+	<AudioObjects>
+		<WorkUnit Name="Ambient" ID="{6236A151-7402-472C-95F5-4C4A58E1FA44}" OwnerID="{1DD22B12-CB8B-4B1A-9971-9841C02CE0DE}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="3"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Ambiences" ID="{9E2D9F84-5304-4B4B-BF61-BECE5251A374}" ShortID="25133313">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="Ambiances_Background" ID="{78D445A4-CA8C-4005-A5F8-326784D9F981}" PersistMode="Reference"/>
+						<WorkUnit Name="Ambiences_Emitters" ID="{6406B41A-EA56-48E3-9598-C0533350664E}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

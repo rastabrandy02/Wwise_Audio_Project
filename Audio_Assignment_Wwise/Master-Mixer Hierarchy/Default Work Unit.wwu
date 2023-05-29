@@ -34,6 +34,10 @@
 								<Property Name="Color" Type="int16" Value="17"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Objects" ID="{6F424F36-B5CD-419A-8509-2A3A73CC61C1}"/>
+								<Bus Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}"/>
+							</ChildrenList>
 						</Bus>
 					</ChildrenList>
 					<ObjectLists>
@@ -44,7 +48,6 @@
 										<PropertyList>
 											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
 										</PropertyList>
-										<ReferenceList/>
 									</RTPC>
 								</Local>
 							</Reference>

@@ -20,6 +20,24 @@
 						<WorkUnit Name="UI" ID="{AAC43FEF-10EF-46AD-AFBE-91F3442AD0F2}" PersistMode="Reference"/>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="Intradiegetic" ID="{1DD22B12-CB8B-4B1A-9971-9841C02CE0DE}" ShortID="492972714">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Intradiegetic" ID="{A5DAF97B-6A09-4B60-BC66-4303EFCC28D7}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="Objects" ID="{875671E9-94DD-408C-AE2D-41A8552E73A7}" PersistMode="Reference"/>
+						<WorkUnit Name="Ambient" ID="{6236A151-7402-472C-95F5-4C4A58E1FA44}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
