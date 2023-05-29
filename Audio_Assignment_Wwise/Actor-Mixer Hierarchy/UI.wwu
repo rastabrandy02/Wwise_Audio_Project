@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AAC43FEF-10EF-46AD-AFBE-91F3442AD0F2}" SchemaVersion="110" RootDocumentID="{6D38412A-3790-43A4-AC19-90D3174DC1B0}" ParentDocumentID="{6D38412A-3790-43A4-AC19-90D3174DC1B0}">
+	<AudioObjects>
+		<WorkUnit Name="UI" ID="{AAC43FEF-10EF-46AD-AFBE-91F3442AD0F2}" OwnerID="{3A2A0806-A679-4746-BA04-1580C1713756}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="UI" ID="{42A3CD72-DFDD-4CEC-B77A-968FD4E9D6C9}" ShortID="503669893">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{899E7DC0-7433-4302-A947-50D675AAE54B}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="QuestRoll" ID="{0A9BC96A-1E36-4AA1-AF10-A51D03048E8E}" ShortID="1044199411">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="QuestRoll_Open" ID="{288E3C9E-99D4-4F47-8B41-FC5F755CC61D}" ShortID="107832514">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_QuestRoll_Open" ID="{8F4D8F92-AF81-42BA-8E0E-1060641CF23A}">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="21"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>BAS_QuestRoll_Open.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="754510184"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_QuestRoll_Open" ID="{8F4D8F92-AF81-42BA-8E0E-1060641CF23A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="QuestRoll_Close" ID="{F38BE877-E4BA-4242-B084-37510A4F1D7E}" ShortID="222058179">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_QuestRoll_Close" ID="{448D94EC-1815-4BCD-8B37-240E3A35E00F}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_QuestRoll_Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="101095292"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_QuestRoll_Close" ID="{448D94EC-1815-4BCD-8B37-240E3A35E00F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
