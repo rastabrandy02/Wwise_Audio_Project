@@ -6,9 +6,11 @@
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Switches\Player.wwu" DateLow="1685553302" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Switches\General.wwu" DateLow="1685553242" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Switches\Default Work Unit.wwu" DateLow="1685526565" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\States\MusicStates.wwu" DateLow="1685562370" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\States\Default Work Unit.wwu" DateLow="1685526565" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1685526565" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1685552676" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\SoundBanks\Region.wwu" DateLow="1685562390" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1685562057" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Queries\Factory Queries.wwu" DateLow="1685526565" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Queries\Default Work Unit.wwu" DateLow="1685526565" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Presets\Factory Spatial Audio.wwu" DateLow="1685526565" DateHigh="0"/>
@@ -17,8 +19,8 @@
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Modulators\Default Work Unit.wwu" DateLow="1685526561" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1685526561" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Metadata\Default Work Unit.wwu" DateLow="1685526561" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1685526561" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1685557624" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1685561939" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1685564083" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Game Parameters\Gameplay.wwu" DateLow="1685559431" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Game Parameters\Factory Soundseed Air Game Syncs.wwu" DateLow="1685526561" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Game Parameters\Default Work Unit.wwu" DateLow="1685561005" DateHigh="0"/>
@@ -43,13 +45,13 @@
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Effects\Factory iZotope Box Modeler.wwu" DateLow="1685526561" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Effects\Factory Effects.wwu" DateLow="1685526561" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Effects\Factory Auro Headphone.wwu" DateLow="1685526561" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Effects\Default Work Unit.wwu" DateLow="1685526561" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Effects\Default Work Unit.wwu" DateLow="1685562304" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1685526561" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1685526561" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Conversion Settings\Default Work Unit.wwu" DateLow="1685526561" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1685526561" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Audio_Assignment_Wwise.wproj" DateLow="1685526561" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Audio_Assignment_Wwise.espag.wsettings" DateLow="1685559456" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Audio_Assignment_Wwise.wproj" DateLow="1685562349" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Audio_Assignment_Wwise.espag.wsettings" DateLow="1685564167" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Audio Devices\Default Work Unit.wwu" DateLow="1685526561" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Attenuations\Default Work Unit.wwu" DateLow="1685526561" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\UI.wwu" DateLow="1685551065" DateHigh="0"/>
@@ -60,6 +62,6 @@
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\Factory Soundseed Air Objects.wwu" DateLow="1685526561" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1685538400" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\Ambient.wwu" DateLow="1685526561" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\Ambiences_Emitters.wwu" DateLow="1685552676" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\Ambiances_Background.wwu" DateLow="1685561005" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\Ambiences_Emitters.wwu" DateLow="1685564083" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\espag\OneDrive\Documentos\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\Ambiances_Background.wwu" DateLow="1685564083" DateHigh="0"/>
 </ValidationCache>
