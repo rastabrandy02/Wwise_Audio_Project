@@ -6,6 +6,7 @@
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\sofia\Downloads\WAG Originals FULL\WAG Originals\Ambient_Emitters\"/>
 				<Property Name="Event Action List\{00A8E807-8446-4887-B0C1-BAA97C7FF6FD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0AE310EF-9FA7-4CD6-A9FA-9A331323402E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{25077771-C582-422C-BF09-59CDC2259998}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{54C994EC-4721-4207-A0E0-4DC10BEA5B75}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{72E05D2C-2485-48C7-8709-135B1E94D5F7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9B0C78E4-E689-4929-BBCE-6CFF0C2ACB76}\x64_Expand States" Type="string" Value=""/>
