@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ADD77531-1AF2-4601-84E9-17DABE37EB6B}" SchemaVersion="110" RootDocumentID="{99BAFE6C-6EE4-4C84-A6B8-35F70E80E5F5}" ParentDocumentID="{99BAFE6C-6EE4-4C84-A6B8-35F70E80E5F5}">
+	<Events>
+		<WorkUnit Name="UI" ID="{ADD77531-1AF2-4601-84E9-17DABE37EB6B}" OwnerID="{99BAFE6C-6EE4-4C84-A6B8-35F70E80E5F5}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Inventory" ID="{B3A6114E-8E22-4F5C-BC47-F53EABFF941F}" PersistMode="Reference"/>
+				<WorkUnit Name="QuestRoll" ID="{5845A907-6017-4909-9A9F-0E159ADCDA7A}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -14,6 +14,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Ambient_Water_Waterdrops" ID="{10670443-DE4C-4F03-B513-62F63FFF17A4}" ShortID="859260836">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
@@ -158,6 +162,9 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<BlendContainer Name="Ambient_Water_Waterfall" ID="{968E1324-22B8-4E57-BF38-870E2552D410}" ShortID="305507333">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
@@ -192,6 +199,9 @@
 							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="Ambient_Windmill" ID="{2D0AE20F-4342-4DE3-9B63-398D6F86B96E}" ShortID="613837473">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
@@ -282,6 +292,9 @@
 							</ChildrenList>
 						</BlendContainer>
 						<Sound Name="Ambient_Torch" ID="{6719F77D-14E0-49DE-AFFE-591908D92D28}" ShortID="533938243">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
@@ -304,6 +317,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Ambient_Lava" ID="{40F84B89-D7AE-4C85-AF7D-3E080AB69B86}" ShortID="793842538">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
@@ -326,6 +342,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Ambient_ForestBirds" ID="{8E4A2B08-757F-4955-8349-AE4FF0E097F0}" ShortID="960921467">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
@@ -348,6 +367,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Ambient_CrystalRinging" ID="{027BE20C-CC85-445B-B235-9D0D94A47BD9}" ShortID="956420725">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
