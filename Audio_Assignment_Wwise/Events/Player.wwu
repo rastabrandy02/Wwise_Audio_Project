@@ -92,6 +92,23 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="General" ID="{20B442B6-9251-46D9-A069-6EEAC2B7EB24}" ShortID="136188690">
+					<ChildrenList>
+						<Event Name="Player_WeaponImpact" ID="{E854ABBB-33D9-44A1-9D98-55F97C2AB5D8}">
+							<ChildrenList>
+								<Action Name="" ID="{45415307-D4E9-4F8C-AA92-52F481D19093}" ShortID="879054075">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Impact_Weapon_Type" ID="{4158D529-D30D-4025-9982-67BFEDB1C151}" WorkUnitID="{70C30F59-9B73-45B1-B308-5B060D17B51B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_WeaponSwing" ID="{E88359B7-EDEE-43A4-AC36-9B3B9698BFE5}"/>
+						<Event Name="Player_Death" ID="{756905AD-FAA2-4C80-B32B-F840B659F722}"/>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
