@@ -39,6 +39,47 @@
 								<Bus Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}"/>
 							</ChildrenList>
 						</Bus>
+						<Bus Name="World" ID="{8E017178-D336-4782-A4F0-FF1F9F97FD1D}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="AUX" ID="{8D7E0315-FF67-4E92-AD45-26D27B2A28E6}">
+									<ChildrenList>
+										<Bus Name="Region_Cave" ID="{9B930A6A-6664-4718-B981-FC39D5C31901}">
+											<ChildrenList>
+												<AuxBus Name="Cave" ID="{929D1E7F-E4EE-4527-9F2E-809011A148CE}"/>
+												<AuxBus Name="CaveEntrance" ID="{9BD96C98-7088-4568-B5E2-2E80C94CDB2C}"/>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="Region_Desert" ID="{A9CBD65F-AA2D-498E-BBA1-441EB3F18C25}">
+											<ChildrenList>
+												<AuxBus Name="Desert" ID="{0B6F9129-8B9B-4A3E-B714-9A4E19E7A046}"/>
+												<AuxBus Name="RoadToDesert" ID="{6B257CB1-2718-491B-8386-199C4B49F739}"/>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="Region_Dungeon" ID="{D4126E92-AB46-49AF-987B-F15F9E708F13}">
+											<ChildrenList>
+												<AuxBus Name="Dungeon_Entrance" ID="{6C19E808-2D57-41DC-B152-A92C35123082}"/>
+												<AuxBus Name="Dungeon_Core" ID="{E59F2D8C-8D48-4ECD-8D44-431C7FDAAD9A}"/>
+												<AuxBus Name="Dungeon_Forge" ID="{855E171E-7D89-47F0-A409-7027E6143E2D}"/>
+												<AuxBus Name="Dungeon_Library" ID="{842B0B66-04D0-40D5-AF1F-B5495A90EFBA}"/>
+												<AuxBus Name="Dungeon_Library_Statue" ID="{9525B01A-C2CE-4C17-A5FF-B01D7365F29D}"/>
+												<AuxBus Name="Dungeon_MezzanineRoomEntrance" ID="{6D8EAC65-981E-4E10-A1C7-B6CAF35F220B}"/>
+												<AuxBus Name="Dungeon_MezzanineRoom" ID="{9954B1E5-ED91-405E-91F5-88D1BC985D8B}"/>
+												<AuxBus Name="Dungeon_PathToForge" ID="{E80FD5F0-7B2A-4FBB-A39B-79ED52E3DDFE}"/>
+												<AuxBus Name="Dungeon_RoadToCore" ID="{13E7DC9D-BE2C-4705-90EB-BB684F615E36}"/>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="Region_PineForest" ID="{C7D19A0F-9808-480A-BCD4-53DCA0807A6C}"/>
+										<Bus Name="Region_Village" ID="{E9ED883B-97D5-41FE-A1EB-3D352FA836C2}"/>
+										<Bus Name="Region_Woodlands" ID="{C5669191-2006-4387-94F4-517C69F92BA3}"/>
+										<AuxBus Name="Reflect_AuxBus" ID="{3388ED47-6A18-4683-AACF-B78D8A1DBB8E}"/>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
 					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="RTPC">
