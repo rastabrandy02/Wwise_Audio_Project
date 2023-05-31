@@ -12,22 +12,8 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
 						</Reference>
 					</ReferenceList>
-				</ActorMixer>
-				<BlendContainer Name="Time_of_day" ID="{BED49D51-70CE-49B5-81C5-9EF7E9FB9F77}" ShortID="26532575">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
-						</Reference>
-					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="Ambient_Region_Dungeon" ID="{0313B092-5D25-4BDF-947E-180D12441F0B}" ShortID="9592919">
-							<PropertyList>
-								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-							</PropertyList>
+						<BlendContainer Name="Time_of_day" ID="{BED49D51-70CE-49B5-81C5-9EF7E9FB9F77}" ShortID="26532575">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
@@ -37,7 +23,168 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Ambient_Dungeon_Day" ID="{8C132450-9707-48CA-B7BF-14045F4370CE}" ShortID="110719980">
+								<RandomSequenceContainer Name="Ambient_Region_Dungeon" ID="{0313B092-5D25-4BDF-947E-180D12441F0B}" ShortID="9592919">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Ambient_Dungeon_Day" ID="{8C132450-9707-48CA-B7BF-14045F4370CE}" ShortID="110719980">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_amb_dungeon_day_background_loop_01" ID="{6224E368-00AC-418B-9714-6ACF12FF974C}">
+													<Language>SFX</Language>
+													<AudioFile>BAS_amb_dungeon_day_background_loop_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="735081080"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_amb_dungeon_day_background_loop_01" ID="{6224E368-00AC-418B-9714-6ACF12FF974C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Ambient_Region_Cave" ID="{A8CA2AC4-1B3F-4425-9F6A-B4A022988BFA}" ShortID="409908911">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Ambient_Cave_Background_LP" ID="{52954572-FA9B-402D-BF03-4B9BDE000200}" ShortID="526174869">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_amb_cave_background_LP" ID="{20941CE9-BEFA-4583-B9CD-4CBF8BE8E8A0}">
+													<Language>SFX</Language>
+													<AudioFile>BAS_amb_cave_background_LP.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1053036566"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_amb_cave_background_LP" ID="{20941CE9-BEFA-4583-B9CD-4CBF8BE8E8A0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<BlendContainer Name="Ambient_Region_Forest" ID="{87F67A96-8733-4B4C-BCAF-AD39632E4610}" ShortID="929853793">
+									<PropertyList>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+										</Reference>
+									</ReferenceList>
+								</BlendContainer>
+								<BlendContainer Name="Ambient_Region_PineForest" ID="{7389BF0A-10C1-403F-AC53-74E9E15C70D5}" ShortID="146850571">
+									<PropertyList>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Ambient_Region_PineForest_Night" ID="{EDB0076E-C418-4D72-B531-531FC50A2CC0}" ShortID="451475816">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{A650B9AA-2CE7-49EF-A6DB-3B992E5CFD31}">
+													<Language>SFX</Language>
+													<AudioFile>BAS_amb_pineforest_night_background_loop_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="981761782"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{A650B9AA-2CE7-49EF-A6DB-3B992E5CFD31}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="Ambient_Region_Desert" ID="{293E9BE7-0F46-4758-8C0F-89522C94C1F8}" ShortID="298027296">
+									<PropertyList>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+										</Reference>
+									</ReferenceList>
+								</BlendContainer>
+								<BlendContainer Name="Ambient_Region_Village" ID="{8F3C1DDD-E9C7-4FD3-AA71-1A889FC6FD6D}" ShortID="1028477936">
+									<PropertyList>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+										</Reference>
+									</ReferenceList>
+								</BlendContainer>
+								<Sound Name="Ambient_Region_Desert_Day" ID="{1128060D-AC54-457C-BCC9-F2B2DF3F1FF3}" ShortID="983403463">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 									</PropertyList>
@@ -46,39 +193,23 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+											<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_amb_dungeon_day_background_loop_01" ID="{6224E368-00AC-418B-9714-6ACF12FF974C}">
+										<AudioFileSource Name="BAS_amb_desert_day_background_loop_01" ID="{5200A93A-DFF8-4474-8D2A-C3A4BA0895E1}">
 											<Language>SFX</Language>
-											<AudioFile>BAS_amb_dungeon_day_background_loop_01.wav</AudioFile>
+											<AudioFile>BAS_amb_desert_day_background_loop_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="735081080"/>
+												<MediaID ID="991253071"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_amb_dungeon_day_background_loop_01" ID="{6224E368-00AC-418B-9714-6ACF12FF974C}" Platform="Linked"/>
+										<ActiveSource Name="BAS_amb_desert_day_background_loop_01" ID="{5200A93A-DFF8-4474-8D2A-C3A4BA0895E1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Ambient_Region_Cave" ID="{A8CA2AC4-1B3F-4425-9F6A-B4A022988BFA}" ShortID="409908911">
-							<PropertyList>
-								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Ambient_Cave_Background_LP" ID="{52954572-FA9B-402D-BF03-4B9BDE000200}" ShortID="526174869">
+								<Sound Name="Ambient_Region_Desert_Night" ID="{AA1EE959-FD5A-470A-8AA4-4065C8E0F36C}" ShortID="1031079938">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 									</PropertyList>
@@ -87,51 +218,23 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+											<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_amb_cave_background_LP" ID="{20941CE9-BEFA-4583-B9CD-4CBF8BE8E8A0}">
+										<AudioFileSource Name="BAS_amb_desert_night_background_loop_01" ID="{9CE20A10-4FD0-40BD-8915-25617C436516}">
 											<Language>SFX</Language>
-											<AudioFile>BAS_amb_cave_background_LP.wav</AudioFile>
+											<AudioFile>BAS_amb_desert_night_background_loop_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1053036566"/>
+												<MediaID ID="703073432"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_amb_cave_background_LP" ID="{20941CE9-BEFA-4583-B9CD-4CBF8BE8E8A0}" Platform="Linked"/>
+										<ActiveSource Name="BAS_amb_desert_night_background_loop_01" ID="{9CE20A10-4FD0-40BD-8915-25617C436516}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<BlendContainer Name="Ambient_Region_Forest" ID="{87F67A96-8733-4B4C-BCAF-AD39632E4610}" ShortID="929853793">
-							<PropertyList>
-								<Property Name="BlendBehavior" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
-								</Reference>
-							</ReferenceList>
-						</BlendContainer>
-						<BlendContainer Name="Ambient_Region_PineForest" ID="{7389BF0A-10C1-403F-AC53-74E9E15C70D5}" ShortID="146850571">
-							<PropertyList>
-								<Property Name="BlendBehavior" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Ambient_Region_PineForest_Night" ID="{EDB0076E-C418-4D72-B531-531FC50A2CC0}" ShortID="451475816">
+								<Sound Name="Ambient_Region_Village_Day" ID="{D95B24A2-AA3C-44B3-AE99-75723E8D654C}" ShortID="1055491875">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 									</PropertyList>
@@ -140,294 +243,193 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+											<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{A650B9AA-2CE7-49EF-A6DB-3B992E5CFD31}">
+										<AudioFileSource Name="BAS_amb_village_day_background_loop_01" ID="{B3A090D7-0531-4C71-AB14-0E7E558FF3C9}">
 											<Language>SFX</Language>
-											<AudioFile>BAS_amb_pineforest_night_background_loop_01.wav</AudioFile>
+											<AudioFile>BAS_amb_village_day_background_loop_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="981761782"/>
+												<MediaID ID="947782099"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{A650B9AA-2CE7-49EF-A6DB-3B992E5CFD31}" Platform="Linked"/>
+										<ActiveSource Name="BAS_amb_village_day_background_loop_01" ID="{B3A090D7-0531-4C71-AB14-0E7E558FF3C9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ambient_Region_Village_Day_Night" ID="{E679CA68-9A4D-4A42-9EC8-F15D406FF155}" ShortID="366889764">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_amb_village_night_background_loop_01" ID="{03EB50BA-3498-4E49-98C2-30A6FDA5B978}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_amb_village_night_background_loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="146979940"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_amb_village_night_background_loop_01" ID="{03EB50BA-3498-4E49-98C2-30A6FDA5B978}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ambient_Region_Forest_Day" ID="{03448605-D8E6-4A9E-B69F-3BED42543F9E}" ShortID="1034939892">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_amb_forest_day_background_loop_01" ID="{021FFF28-4711-470C-818C-7FFC9EF647FA}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_amb_forest_day_background_loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="49193928"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_amb_forest_day_background_loop_01" ID="{021FFF28-4711-470C-818C-7FFC9EF647FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ambient_Region_Forest_Night" ID="{7BE41016-EC89-420F-9D00-C4B40777CE27}" ShortID="444722178">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="amb_forest_night_background_loop_02" ID="{C674ECE6-37A2-486F-93A1-0A78072833FB}">
+											<Language>SFX</Language>
+											<AudioFile>amb_forest_night_background_loop_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="606625347"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="amb_forest_night_background_loop_02" ID="{C674ECE6-37A2-486F-93A1-0A78072833FB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="Desert" ID="{3DD96D6F-7D0D-4A4A-B35A-4EBA38FAA6E2}" ShortID="620962812">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Time_of_day" ID="{601B8BC3-51A8-4D41-8A66-A6D0C7A8D65C}" WorkUnitID="{2A4039CE-90FB-4618-B251-1F375C6C3CCD}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Ambient_Region_Desert_Day" ID="{1128060D-AC54-457C-BCC9-F2B2DF3F1FF3}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>59.2105263157895</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Ambient_Region_Desert_Night" ID="{AA1EE959-FD5A-470A-8AA4-4065C8E0F36C}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>39.8026315789474</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+								<BlendTrack Name="Forest" ID="{6044850D-E200-40DE-99C0-F3B1CCEFB236}" ShortID="785577886">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Time_of_day" ID="{601B8BC3-51A8-4D41-8A66-A6D0C7A8D65C}" WorkUnitID="{2A4039CE-90FB-4618-B251-1F375C6C3CCD}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Ambient_Region_Forest_Day" ID="{03448605-D8E6-4A9E-B69F-3BED42543F9E}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>58.8815789473684</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Ambient_Region_Forest_Night" ID="{7BE41016-EC89-420F-9D00-C4B40777CE27}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>35.8552631578947</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+								<BlendTrack Name="Village" ID="{1875DA64-D169-44C4-B75E-DFA260A26867}" ShortID="891139218">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Time_of_day" ID="{601B8BC3-51A8-4D41-8A66-A6D0C7A8D65C}" WorkUnitID="{2A4039CE-90FB-4618-B251-1F375C6C3CCD}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Ambient_Region_Village_Day" ID="{D95B24A2-AA3C-44B3-AE99-75723E8D654C}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>60.1973684210526</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Ambient_Region_Village_Day_Night" ID="{E679CA68-9A4D-4A42-9EC8-F15D406FF155}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>34.8684210526316</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
 						</BlendContainer>
-						<BlendContainer Name="Ambient_Region_Desert" ID="{293E9BE7-0F46-4758-8C0F-89522C94C1F8}" ShortID="298027296">
-							<PropertyList>
-								<Property Name="BlendBehavior" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
-								</Reference>
-							</ReferenceList>
-						</BlendContainer>
-						<BlendContainer Name="Ambient_Region_Village" ID="{8F3C1DDD-E9C7-4FD3-AA71-1A889FC6FD6D}" ShortID="1028477936">
-							<PropertyList>
-								<Property Name="BlendBehavior" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
-								</Reference>
-							</ReferenceList>
-						</BlendContainer>
-						<Sound Name="Ambient_Region_Desert_Day" ID="{1128060D-AC54-457C-BCC9-F2B2DF3F1FF3}" ShortID="983403463">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BAS_amb_desert_day_background_loop_01" ID="{5200A93A-DFF8-4474-8D2A-C3A4BA0895E1}">
-									<Language>SFX</Language>
-									<AudioFile>BAS_amb_desert_day_background_loop_01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="991253071"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="BAS_amb_desert_day_background_loop_01" ID="{5200A93A-DFF8-4474-8D2A-C3A4BA0895E1}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Ambient_Region_Desert_Night" ID="{AA1EE959-FD5A-470A-8AA4-4065C8E0F36C}" ShortID="1031079938">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BAS_amb_desert_night_background_loop_01" ID="{9CE20A10-4FD0-40BD-8915-25617C436516}">
-									<Language>SFX</Language>
-									<AudioFile>BAS_amb_desert_night_background_loop_01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="703073432"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="BAS_amb_desert_night_background_loop_01" ID="{9CE20A10-4FD0-40BD-8915-25617C436516}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Ambient_Region_Village_Day" ID="{D95B24A2-AA3C-44B3-AE99-75723E8D654C}" ShortID="1055491875">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BAS_amb_village_day_background_loop_01" ID="{B3A090D7-0531-4C71-AB14-0E7E558FF3C9}">
-									<Language>SFX</Language>
-									<AudioFile>BAS_amb_village_day_background_loop_01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="947782099"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="BAS_amb_village_day_background_loop_01" ID="{B3A090D7-0531-4C71-AB14-0E7E558FF3C9}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Ambient_Region_Village_Day_Night" ID="{E679CA68-9A4D-4A42-9EC8-F15D406FF155}" ShortID="366889764">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BAS_amb_village_night_background_loop_01" ID="{03EB50BA-3498-4E49-98C2-30A6FDA5B978}">
-									<Language>SFX</Language>
-									<AudioFile>BAS_amb_village_night_background_loop_01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="146979940"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="BAS_amb_village_night_background_loop_01" ID="{03EB50BA-3498-4E49-98C2-30A6FDA5B978}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Ambient_Region_Forest_Day" ID="{03448605-D8E6-4A9E-B69F-3BED42543F9E}" ShortID="1034939892">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BAS_amb_forest_day_background_loop_01" ID="{021FFF28-4711-470C-818C-7FFC9EF647FA}">
-									<Language>SFX</Language>
-									<AudioFile>BAS_amb_forest_day_background_loop_01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="49193928"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="BAS_amb_forest_day_background_loop_01" ID="{021FFF28-4711-470C-818C-7FFC9EF647FA}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Ambient_Region_Forest_Night" ID="{7BE41016-EC89-420F-9D00-C4B40777CE27}" ShortID="444722178">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambient" ID="{867D57E6-F51D-48DC-BA34-AD15738A569F}" WorkUnitID="{F567B619-409D-4B0F-AA7B-39893B69A7CB}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="amb_forest_night_background_loop_02" ID="{C674ECE6-37A2-486F-93A1-0A78072833FB}">
-									<Language>SFX</Language>
-									<AudioFile>amb_forest_night_background_loop_02.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="606625347"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="amb_forest_night_background_loop_02" ID="{C674ECE6-37A2-486F-93A1-0A78072833FB}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 					</ChildrenList>
-					<BlendTrackList>
-						<BlendTrack Name="Desert" ID="{3DD96D6F-7D0D-4A4A-B35A-4EBA38FAA6E2}" ShortID="620962812">
-							<PropertyList>
-								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="LayerCrossFadeControlInput">
-									<ObjectRef Name="Time_of_day" ID="{601B8BC3-51A8-4D41-8A66-A6D0C7A8D65C}" WorkUnitID="{2A4039CE-90FB-4618-B251-1F375C6C3CCD}"/>
-								</Reference>
-							</ReferenceList>
-							<BlendTrackAssocList>
-								<BlendTrackAssoc>
-									<ItemRef Name="Ambient_Region_Desert_Day" ID="{1128060D-AC54-457C-BCC9-F2B2DF3F1FF3}"/>
-									<CrossfadingInfo>
-										<LeftEdgePos>0</LeftEdgePos>
-										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>59.2105263157895</RightEdgePos>
-										<RightFadingMode>Automatic</RightFadingMode>
-									</CrossfadingInfo>
-								</BlendTrackAssoc>
-								<BlendTrackAssoc>
-									<ItemRef Name="Ambient_Region_Desert_Night" ID="{AA1EE959-FD5A-470A-8AA4-4065C8E0F36C}"/>
-									<CrossfadingInfo>
-										<LeftEdgePos>39.8026315789474</LeftEdgePos>
-										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>100</RightEdgePos>
-										<RightFadingMode>Automatic</RightFadingMode>
-									</CrossfadingInfo>
-								</BlendTrackAssoc>
-							</BlendTrackAssocList>
-						</BlendTrack>
-						<BlendTrack Name="Forest" ID="{6044850D-E200-40DE-99C0-F3B1CCEFB236}" ShortID="785577886">
-							<PropertyList>
-								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="LayerCrossFadeControlInput">
-									<ObjectRef Name="Time_of_day" ID="{601B8BC3-51A8-4D41-8A66-A6D0C7A8D65C}" WorkUnitID="{2A4039CE-90FB-4618-B251-1F375C6C3CCD}"/>
-								</Reference>
-							</ReferenceList>
-							<BlendTrackAssocList>
-								<BlendTrackAssoc>
-									<ItemRef Name="Ambient_Region_Forest_Day" ID="{03448605-D8E6-4A9E-B69F-3BED42543F9E}"/>
-									<CrossfadingInfo>
-										<LeftEdgePos>0</LeftEdgePos>
-										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>58.8815789473684</RightEdgePos>
-										<RightFadingMode>Automatic</RightFadingMode>
-									</CrossfadingInfo>
-								</BlendTrackAssoc>
-								<BlendTrackAssoc>
-									<ItemRef Name="Ambient_Region_Forest_Night" ID="{7BE41016-EC89-420F-9D00-C4B40777CE27}"/>
-									<CrossfadingInfo>
-										<LeftEdgePos>35.8552631578947</LeftEdgePos>
-										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>100</RightEdgePos>
-										<RightFadingMode>Automatic</RightFadingMode>
-									</CrossfadingInfo>
-								</BlendTrackAssoc>
-							</BlendTrackAssocList>
-						</BlendTrack>
-						<BlendTrack Name="Village" ID="{1875DA64-D169-44C4-B75E-DFA260A26867}" ShortID="891139218">
-							<PropertyList>
-								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="LayerCrossFadeControlInput">
-									<ObjectRef Name="Time_of_day" ID="{601B8BC3-51A8-4D41-8A66-A6D0C7A8D65C}" WorkUnitID="{2A4039CE-90FB-4618-B251-1F375C6C3CCD}"/>
-								</Reference>
-							</ReferenceList>
-							<BlendTrackAssocList>
-								<BlendTrackAssoc>
-									<ItemRef Name="Ambient_Region_Village_Day" ID="{D95B24A2-AA3C-44B3-AE99-75723E8D654C}"/>
-									<CrossfadingInfo>
-										<LeftEdgePos>0</LeftEdgePos>
-										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>60.1973684210526</RightEdgePos>
-										<RightFadingMode>Automatic</RightFadingMode>
-									</CrossfadingInfo>
-								</BlendTrackAssoc>
-								<BlendTrackAssoc>
-									<ItemRef Name="Ambient_Region_Village_Day_Night" ID="{E679CA68-9A4D-4A42-9EC8-F15D406FF155}"/>
-									<CrossfadingInfo>
-										<LeftEdgePos>34.8684210526316</LeftEdgePos>
-										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>100</RightEdgePos>
-										<RightFadingMode>Automatic</RightFadingMode>
-									</CrossfadingInfo>
-								</BlendTrackAssoc>
-							</BlendTrackAssocList>
-						</BlendTrack>
-					</BlendTrackList>
-				</BlendContainer>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
