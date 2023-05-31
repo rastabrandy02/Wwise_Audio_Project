@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{316817BF-0649-24E5-C157-D472F4018B17}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{31BA8495-67CF-1562-D4D3-6B37A33498E5}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -36,6 +36,7 @@
 				</Bus>
 			</Busses>
 			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_day"/>
 				<GameParameter Id="822163944" Name="SS_Air_RPM"/>
 				<GameParameter Id="1029930033" Name="SS_Air_Fury"/>
 				<GameParameter Id="1351367891" Name="SS_Air_Fear"/>
@@ -277,5 +278,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E62871DC-0674-02D4-65B4-2AE6AC5C9F5A}</FileHash>
+	<FileHash>{8EE22545-D527-31ED-0901-5A05EB10B70C}</FileHash>
 </SoundBanksInfo>
