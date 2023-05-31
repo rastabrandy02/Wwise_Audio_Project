@@ -9,21 +9,83 @@
 							<ChildrenList>
 								<Folder Name="Walk" ID="{7012762D-C98F-41FE-8A09-EF9F67542482}" ShortID="571310870">
 									<ChildrenList>
-										<Folder Name="Grass" ID="{C80CE62A-67E1-4270-9987-048BFA335F6C}" ShortID="718510569">
+										<Event Name="Player_Footstep_grass_walk" ID="{202CC7C1-45C1-4CAB-8A91-20145C042D84}">
 											<ChildrenList>
-												<Event Name="BAS_Player_Footstep_grass_walk" ID="{202CC7C1-45C1-4CAB-8A91-20145C042D84}">
-													<ChildrenList>
-														<Action Name="" ID="{4C439B78-6F52-4900-8714-87B12941B7B7}" ShortID="58919408">
-															<ReferenceList>
-																<Reference Name="Target">
-																	<ObjectRef Name="Player_Footstep_Grass" ID="{7754C8CE-62E1-4F56-80C0-B81BC831E8F2}" WorkUnitID="{70C30F59-9B73-45B1-B308-5B060D17B51B}"/>
-																</Reference>
-															</ReferenceList>
-														</Action>
-													</ChildrenList>
-												</Event>
+												<Action Name="" ID="{4C439B78-6F52-4900-8714-87B12941B7B7}" ShortID="58919408">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_Player_Footstep_grass_walk_01" ID="{B04D3B27-1F2E-4064-ADC9-57E383766BD8}" WorkUnitID="{70C30F59-9B73-45B1-B308-5B060D17B51B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
-										</Folder>
+										</Event>
+										<Event Name="Player_Footstep_stone_walk" ID="{C79F2EDE-69FA-4F4C-AE7D-A2EA8CF6892E}">
+											<ChildrenList>
+												<Action Name="" ID="{B887FC5D-F432-4569-BBAE-0E2858C9DF3C}" ShortID="596334411">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_Player_Footstep_stone_walk_01" ID="{3E302FFB-CD9C-4101-B846-1508476E5810}" WorkUnitID="{70C30F59-9B73-45B1-B308-5B060D17B51B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Player_Footstep_sand_walk" ID="{F2442B90-EC83-424F-AEF0-68344D8AF135}">
+											<ChildrenList>
+												<Action Name="" ID="{8AFD62CD-2E3C-4FCE-8208-B1A9DAF26849}" ShortID="1023269667">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_Player_Footstep_sand_walk_01" ID="{D476064B-AD3E-4A28-A983-0FA80CEB9194}" WorkUnitID="{70C30F59-9B73-45B1-B308-5B060D17B51B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Player_Footstep_rubble_walk" ID="{EAE310A2-7796-45F7-9CEB-D8D807853F71}">
+											<ChildrenList>
+												<Action Name="" ID="{616A7A52-5447-4708-8A18-E8647953D178}" ShortID="115948967">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_Player_Footstep_rubble_walk_02" ID="{1A25E0BF-DC6C-470D-8B4A-CF3490B9E95B}" WorkUnitID="{70C30F59-9B73-45B1-B308-5B060D17B51B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Player_Footstep_wood_walk" ID="{6677AD6E-2F51-4B44-8285-04FA839F7D91}">
+											<ChildrenList>
+												<Action Name="" ID="{EDE993D8-90A2-4A8D-AC89-99740E1A50D7}" ShortID="379354079">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_Player_Footstep_wood_walk_01" ID="{07E2859E-E9A7-4E78-8107-76048D993BA3}" WorkUnitID="{70C30F59-9B73-45B1-B308-5B060D17B51B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Player_Footstep_water_walk" ID="{74789989-4C7F-40FA-B14A-0235A63C37F0}">
+											<ChildrenList>
+												<Action Name="" ID="{E1156FD7-C0B5-4A40-B08C-8BA0FC0C2448}" ShortID="644895081">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_Player_Footstep_water_walk_01" ID="{30C81888-7BAA-428F-B449-B297CAFEF06E}" WorkUnitID="{70C30F59-9B73-45B1-B308-5B060D17B51B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Player_Footstep_dirt_walk" ID="{6E54B23D-126F-4AC6-9702-886A537C31F1}">
+											<ChildrenList>
+												<Action Name="" ID="{90AD2ABE-F769-4BC4-93FD-558C23CE8C5C}" ShortID="424082189">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_Player_Footstep_dirt_walk_01" ID="{BAA97A99-6697-4363-A002-B596FA2F01F8}" WorkUnitID="{70C30F59-9B73-45B1-B308-5B060D17B51B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
