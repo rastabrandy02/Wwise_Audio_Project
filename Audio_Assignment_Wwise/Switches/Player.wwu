@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D3CE1016-B2E3-4B5E-8BC8-71E42744C423}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Player" ID="{D3CE1016-B2E3-4B5E-8BC8-71E42744C423}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Player_MovementSpeed" ID="{A5916CF5-59BB-43D2-8E3F-0F1EC0AE50E8}">
+					<ChildrenList>
+						<Switch Name="Walk" ID="{ACD8B25A-C924-4E88-BE43-34C0586F3DD5}"/>
+						<Switch Name="Run" ID="{39B7B0A6-9890-4E77-8767-9E57DDCF205B}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Player_Weapon_Type" ID="{BBCC265F-1198-4393-90CF-620905D9007E}">
+					<ChildrenList>
+						<Switch Name="Sword" ID="{1CC15B5F-A97B-4125-A605-FB36B5B12C61}"/>
+						<Switch Name="Axe" ID="{941F9004-FAEA-4858-BFBF-1CFC561C662A}"/>
+						<Switch Name="Dagger" ID="{152756E2-72D0-4119-9CBD-6C286C015BBA}"/>
+						<Switch Name="Hammer" ID="{F5CB1CCB-FE56-4909-A050-8B0CF4D03957}"/>
+						<Switch Name="PickAxe" ID="{D9BDB428-895B-443D-9759-2D716E6AC8DF}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Player_Pickup_ItemType" ID="{4A098660-073F-4EE8-892B-EE6555628302}"/>
+				<SwitchGroup Name="Player_Pickup_Type" ID="{293921CF-10F6-4A1C-8288-0A460F61B9D6}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
