@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{068BA13A-4684-4EA5-9102-CB2CBC47D075}" SchemaVersion="110" RootDocumentID="{A8E44CF3-DC8D-4EEE-8393-602AAECCC4E3}" ParentDocumentID="{A8E44CF3-DC8D-4EEE-8393-602AAECCC4E3}">
+	<SoundBanks>
+		<WorkUnit Name="Region" ID="{068BA13A-4684-4EA5-9102-CB2CBC47D075}" OwnerID="{A8E44CF3-DC8D-4EEE-8393-602AAECCC4E3}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="1"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SoundBank Name="Dungeon" ID="{FB5DFCF9-1E76-4957-9B97-3F18BD04A99C}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -16,6 +16,7 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<WorkUnit Name="Region" ID="{068BA13A-4684-4EA5-9102-CB2CBC47D075}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

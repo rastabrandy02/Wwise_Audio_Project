@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2871C47D-1612-4424-AFC6-7CC62FE9D13B}" SchemaVersion="110">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{2871C47D-1612-4424-AFC6-7CC62FE9D13B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2871C47D-1612-4424-AFC6-7CC62FE9D13B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Reverbs" ID="{82D8E663-54D9-48FE-943D-91F42979E2C9}" ShortID="523568662">
+					<ChildrenList>
+						<Effect Name="WAG_Dungeon_Core" ID="{676C002F-0A5E-4102-9AFC-E4B512CAB2A9}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<PropertyList>
+								<Property Name="DecayTime" Type="Real32" Value="4"/>
+								<Property Name="Density" Type="Real32" Value="70"/>
+								<Property Name="ERPattern" Type="int32" Value="9"/>
+								<Property Name="EnableToneControls" Type="bool" Value="True"/>
+								<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+								<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+								<Property Name="Filter3Freq" Type="Real32" Value="7390"/>
+								<Property Name="Filter3Gain" Type="Real32" Value="-8"/>
+								<Property Name="HFDamping" Type="Real32" Value="5.7"/>
+								<Property Name="PreDelay" Type="Real32" Value="141"/>
+								<Property Name="Quality" Type="int32" Value="14"/>
+								<Property Name="StereoWidth" Type="Real32" Value="172"/>
+							</PropertyList>
+						</Effect>
+						<Effect Name="WAG_Dungeon_Entrance" ID="{3EB6293A-1A64-459B-97E2-EF0C727A3E0A}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<PropertyList>
+								<Property Name="DecayTime" Type="Real32" Value="1.9"/>
+								<Property Name="Density" Type="Real32" Value="44"/>
+								<Property Name="DryLevel" Type="Real32" Value="-96"/>
+								<Property Name="ERLevel" Type="Real32" Value="-21"/>
+								<Property Name="EnableToneControls" Type="bool" Value="True"/>
+								<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+								<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+								<Property Name="Filter3Freq" Type="Real32" Value="7960"/>
+								<Property Name="Filter3Gain" Type="Real32" Value="-15.5"/>
+								<Property Name="HFDamping" Type="Real32" Value="4.7"/>
+								<Property Name="PreDelay" Type="Real32" Value="153"/>
+								<Property Name="Quality" Type="int32" Value="16"/>
+								<Property Name="ReverbLevel" Type="Real32" Value="-29"/>
+								<Property Name="RoomShape" Type="Real32" Value="55"/>
+								<Property Name="StereoWidth" Type="Real32" Value="155"/>
+							</PropertyList>
+						</Effect>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>
