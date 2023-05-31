@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A8E44CF3-DC8D-4EEE-8393-602AAECCC4E3}" SchemaVersion="110">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{A8E44CF3-DC8D-4EEE-8393-602AAECCC4E3}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A8E44CF3-DC8D-4EEE-8393-602AAECCC4E3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Master" ID="{CDF670DA-7A22-4B90-B3F8-F6833EC19F0B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Ambient_Water_Waterfall" ID="{17409F55-E8DA-4062-97BC-26EA2FE1B05B}" WorkUnitID="{53E2DF4F-0335-4D1A-ADA0-54BE31F8A125}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ambient_Windmill" ID="{C3F7E92D-80E4-465B-BA97-F46FCD8245D2}" WorkUnitID="{53E2DF4F-0335-4D1A-ADA0-54BE31F8A125}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ambient_CrystalRinging" ID="{72E05D2C-2485-48C7-8709-135B1E94D5F7}" WorkUnitID="{53E2DF4F-0335-4D1A-ADA0-54BE31F8A125}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ambient_Water_Waterdrops" ID="{A9C60BA0-4B93-4C0A-B204-C87F9D88842D}" WorkUnitID="{53E2DF4F-0335-4D1A-ADA0-54BE31F8A125}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ambient_ForestBirds" ID="{0AE310EF-9FA7-4CD6-A9FA-9A331323402E}" WorkUnitID="{53E2DF4F-0335-4D1A-ADA0-54BE31F8A125}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ambient_Torch" ID="{20EAE64B-E524-4D3B-83C5-5C65B678F4C7}" WorkUnitID="{53E2DF4F-0335-4D1A-ADA0-54BE31F8A125}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ambient_Lava" ID="{ADEBE792-B282-4FE0-A3B7-501E6C1490AB}" WorkUnitID="{53E2DF4F-0335-4D1A-ADA0-54BE31F8A125}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

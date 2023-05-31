@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{316817BF-0649-24E5-C157-D472F4018B17}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="273697717" Name="Flanger (Custom)" LibName="Wwise Flanger" LibId="8192003"/>
+				</Custom>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="77978275" Name="Ambient"/>
+				<Bus Id="1551306167" Name="UI"/>
+				<Bus Id="1695690031" Name="Objects"/>
+				<Bus Id="2795865631" Name="Extradiegetic"/>
+				<Bus Id="3790394781" Name="Intradiegetic"/>
+				<Bus Id="3803692087" Name="Master Audio Bus">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="273697717"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="822163944" Name="SS_Air_RPM"/>
+				<GameParameter Id="1029930033" Name="SS_Air_Fury"/>
+				<GameParameter Id="1351367891" Name="SS_Air_Fear"/>
+				<GameParameter Id="2648548617" Name="SS_Air_Month"/>
+				<GameParameter Id="3002758120" Name="SS_Air_Freefall"/>
+				<GameParameter Id="3074696722" Name="SS_Air_Size"/>
+				<GameParameter Id="3203397129" Name="SS_Air_TimeOfDay"/>
+				<GameParameter Id="3715662592" Name="SS_Air_Storm"/>
+				<GameParameter Id="3847924954" Name="SS_Air_Presence"/>
+				<GameParameter Id="4160247818" Name="SS_Air_Turbulence"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="207908541" Name="Time_of_day">
+					<Switches>
+						<Switch Id="311764537" Name="Day"/>
+						<Switch Id="1011622525" Name="Night"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
+		</SoundBank>
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{380C14F7-5054-047D-63AF-E950B9DD7EE6}">
+			<ShortName>Master</ShortName>
+			<Path>Master.bnk</Path>
+			<Media>
+				<File Id="75486987" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_WindMillBlade_01.wav</ShortName>
+					<CachePath>SFX/BAS_WindMillBlade_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="98201461" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_WaterDrops_01.wav</ShortName>
+					<CachePath>SFX/BAS_WaterDrops_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="110716481" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_WaterDrops_04.wav</ShortName>
+					<CachePath>SFX/BAS_WaterDrops_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="484472039" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_WaterDrops_03.wav</ShortName>
+					<CachePath>SFX/BAS_WaterDrops_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="582029323" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Waterfall.wav</ShortName>
+					<CachePath>SFX/BAS_Waterfall_10C4C929.wem</CachePath>
+				</File>
+				<File Id="586981973" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Crystal_Ringing.wav</ShortName>
+					<CachePath>SFX/BAS_Crystal_Ringing_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="628504683" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_WaterDrops_05.wav</ShortName>
+					<CachePath>SFX/BAS_WaterDrops_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="758811886" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_WaterDrops_02.wav</ShortName>
+					<CachePath>SFX/BAS_WaterDrops_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="857830148" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Lava.wav</ShortName>
+					<CachePath>SFX/BAS_Lava_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="864559557" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_WindMillBlade_03.wav</ShortName>
+					<CachePath>SFX/BAS_WindMillBlade_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="881813533" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_WindMillBlade_02.wav</ShortName>
+					<CachePath>SFX/BAS_WindMillBlade_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="917591711" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_ForestBirds.wav</ShortName>
+					<CachePath>SFX/BAS_ForestBirds_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="955332324" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_WaterDrops_06.wav</ShortName>
+					<CachePath>SFX/BAS_WaterDrops_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1003066645" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Torch.wav</ShortName>
+					<CachePath>SFX/BAS_Torch_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1525295185" Name="Play_Ambient_CrystalRinging">
+					<MediaRefs>
+						<MediaRef Id="586981973"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2661369014" Name="Play_Ambient_ForestBirds">
+					<MediaRefs>
+						<MediaRef Id="917591711"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4036067451" Name="Play_Ambient_Lava">
+					<MediaRefs>
+						<MediaRef Id="857830148"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2949290073" Name="Play_Ambient_Torch">
+					<MediaRefs>
+						<MediaRef Id="1003066645"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3263619540" Name="Play_Ambient_Water_Waterdrops">
+					<MediaRefs>
+						<MediaRef Id="98201461"/>
+						<MediaRef Id="110716481"/>
+						<MediaRef Id="484472039"/>
+						<MediaRef Id="628504683"/>
+						<MediaRef Id="758811886"/>
+						<MediaRef Id="955332324"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3131947101" Name="Play_Ambient_Water_Waterfall">
+					<MediaRefs>
+						<MediaRef Id="582029323"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3278060661" Name="Play_Ambient_Windmill">
+					<MediaRefs>
+						<MediaRef Id="75486987"/>
+						<MediaRef Id="864559557"/>
+						<MediaRef Id="881813533"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E62871DC-0674-02D4-65B4-2AE6AC5C9F5A}</FileHash>
+</SoundBanksInfo>

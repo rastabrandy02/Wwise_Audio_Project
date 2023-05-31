@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1525295185	Play_Ambient_CrystalRinging			\Default Work Unit\Ambient\Ambience_Emitters\Play_Ambient_CrystalRinging	
+	2661369014	Play_Ambient_ForestBirds			\Default Work Unit\Ambient\Ambience_Emitters\Play_Ambient_ForestBirds	
+	2949290073	Play_Ambient_Torch			\Default Work Unit\Ambient\Ambience_Emitters\Play_Ambient_Torch	
+	3131947101	Play_Ambient_Water_Waterfall			\Default Work Unit\Ambient\Ambience_Emitters\Play_Ambient_Water_Waterfall	
+	3263619540	Play_Ambient_Water_Waterdrops			\Default Work Unit\Ambient\Ambience_Emitters\Play_Ambient_Water_Waterdrops	
+	3278060661	Play_Ambient_Windmill			\Default Work Unit\Ambient\Ambience_Emitters\Play_Ambient_Windmill	
+	4036067451	Play_Ambient_Lava			\Default Work Unit\Ambient\Ambience_Emitters\Play_Ambient_Lava	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	75486987	Ambient_Windmill_Blades_01	C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\.cache\Windows\SFX\BAS_WindMillBlade_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intradiegetic\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Windmill\Ambient_Windmill_Blades\Ambient_Windmill_Blades_01		1622112
+	98201461	Ambient_Water_Waterdrop_01	C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\.cache\Windows\SFX\BAS_WaterDrops_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intradiegetic\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterdrops\Ambient_Water_Waterdrop_01		28768
+	110716481	Ambient_Water_Waterdrop_04	C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\.cache\Windows\SFX\BAS_WaterDrops_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intradiegetic\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterdrops\Ambient_Water_Waterdrop_04		57440
+	484472039	Ambient_Water_Waterdrop_03	C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\.cache\Windows\SFX\BAS_WaterDrops_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intradiegetic\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterdrops\Ambient_Water_Waterdrop_03		51296
+	582029323	Ambient_Water_Waterfall	C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\.cache\Windows\SFX\BAS_Waterfall_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intradiegetic\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Ambient_Water_Waterfall		768096
+	586981973	Ambient_CrystalRinging	C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\.cache\Windows\SFX\BAS_Crystal_Ringing_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intradiegetic\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_CrystalRinging		2469760
+	628504683	Ambient_Water_Waterdrop_05	C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\.cache\Windows\SFX\BAS_WaterDrops_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intradiegetic\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterdrops\Ambient_Water_Waterdrop_05		43296
+	758811886	Ambient_Water_Waterdrop_02	C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\.cache\Windows\SFX\BAS_WaterDrops_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intradiegetic\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterdrops\Ambient_Water_Waterdrop_02		39008
+	857830148	Ambient_Lava	C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\.cache\Windows\SFX\BAS_Lava_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intradiegetic\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Lava		1228896
+	864559557	Ambient_Windmill_Blades_03	C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\.cache\Windows\SFX\BAS_WindMillBlade_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intradiegetic\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Windmill\Ambient_Windmill_Blades\Ambient_Windmill_Blades_03		352352
+	881813533	Ambient_Windmill_Blades_02	C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\.cache\Windows\SFX\BAS_WindMillBlade_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intradiegetic\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Windmill\Ambient_Windmill_Blades\Ambient_Windmill_Blades_02		1163360
+	917591711	Ambient_ForestBirds	C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\.cache\Windows\SFX\BAS_ForestBirds_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intradiegetic\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_ForestBirds		852064
+	955332324	Ambient_Water_Waterdrop_06	C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\.cache\Windows\SFX\BAS_WaterDrops_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intradiegetic\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterdrops\Ambient_Water_Waterdrop_06		77856
+	1003066645	Ambient_Torch	C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\.cache\Windows\SFX\BAS_Torch_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intradiegetic\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Torch		448524
+
