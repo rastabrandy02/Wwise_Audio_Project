@@ -38,6 +38,11 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
+																	<XPos>10.01032</XPos>
+																	<YPos>-0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
 																	<XPos>100</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
@@ -270,6 +275,11 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
+																	<XPos>10.31992</XPos>
+																	<YPos>-0.05384</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
 																	<XPos>100</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
@@ -390,6 +400,11 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10.01032</XPos>
+																	<YPos>-0</YPos>
+																	<Flags>0</Flags>
 																</Point>
 																<Point>
 																	<XPos>100</XPos>
@@ -570,6 +585,11 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
+																	<XPos>10.31992</XPos>
+																	<YPos>-0.10772</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
 																	<XPos>100</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
@@ -678,6 +698,11 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10.52632</XPos>
+																	<YPos>-0.2073</YPos>
+																	<Flags>0</Flags>
 																</Point>
 																<Point>
 																	<XPos>100</XPos>
@@ -790,6 +815,11 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
+																	<XPos>10.31992</XPos>
+																	<YPos>-0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
 																	<XPos>100</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
@@ -898,6 +928,11 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10.11352</XPos>
+																	<YPos>-0.03582</YPos>
+																	<Flags>0</Flags>
 																</Point>
 																<Point>
 																	<XPos>100</XPos>
