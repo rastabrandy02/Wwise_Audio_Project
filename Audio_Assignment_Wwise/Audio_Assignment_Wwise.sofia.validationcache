@@ -21,6 +21,7 @@
 	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Game Parameters\Default Work Unit.wwu" DateLow="1685489882" DateHigh="0"/>
 	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Events\UI.wwu" DateLow="1685550263" DateHigh="0"/>
 	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Events\QuestRoll.wwu" DateLow="1685550263" DateHigh="0"/>
+	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Events\Player.wwu" DateLow="1685552446" DateHigh="0"/>
 	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Events\Inventory.wwu" DateLow="1685550263" DateHigh="0"/>
 	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Events\Destruction.wwu" DateLow="1685550263" DateHigh="0"/>
 	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Events\Default Work Unit.wwu" DateLow="1685550263" DateHigh="0"/>
@@ -49,11 +50,12 @@
 	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Audio Devices\Default Work Unit.wwu" DateLow="1685489882" DateHigh="0"/>
 	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Attenuations\Default Work Unit.wwu" DateLow="1685489882" DateHigh="0"/>
 	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\UI.wwu" DateLow="1685550263" DateHigh="0"/>
+	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\Player.wwu" DateLow="1685552446" DateHigh="0"/>
 	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\Objects_Destruction.wwu" DateLow="1685489882" DateHigh="0"/>
 	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\Objects.wwu" DateLow="1685489882" DateHigh="0"/>
 	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1685489882" DateHigh="0"/>
 	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\Factory Soundseed Air Objects.wwu" DateLow="1685489882" DateHigh="0"/>
-	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1685489882" DateHigh="0"/>
+	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1685552446" DateHigh="0"/>
 	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\Ambient.wwu" DateLow="1685489882" DateHigh="0"/>
 	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\Ambiences_Emitters.wwu" DateLow="1685550263" DateHigh="0"/>
 	<ValidationCacheItem File="C:\GitHub\Wwise_Audio_Project\Audio_Assignment_Wwise\Actor-Mixer Hierarchy\Ambiances_Background.wwu" DateLow="1685550263" DateHigh="0"/>

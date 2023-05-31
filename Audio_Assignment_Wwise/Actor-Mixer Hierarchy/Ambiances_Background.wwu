@@ -28,6 +28,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Ambient_Cave_Background_LP" ID="{52954572-FA9B-402D-BF03-4B9BDE000200}" ShortID="526174869">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
@@ -66,6 +69,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Ambient_Dungeon_Day" ID="{8C132450-9707-48CA-B7BF-14045F4370CE}" ShortID="110719980">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
@@ -103,6 +109,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Ambient_Region_Desert_Day" ID="{1128060D-AC54-457C-BCC9-F2B2DF3F1FF3}" ShortID="983403463">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
@@ -125,6 +134,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Ambient_Region_Desert_Night" ID="{AA1EE959-FD5A-470A-8AA4-4065C8E0F36C}" ShortID="1031079938">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
@@ -162,6 +174,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Ambient_Region_PineForest_Night" ID="{EDB0076E-C418-4D72-B531-531FC50A2CC0}" ShortID="451475816">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
@@ -199,6 +214,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Ambient_Region_Village_Day" ID="{D95B24A2-AA3C-44B3-AE99-75723E8D654C}" ShortID="1055491875">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
@@ -221,6 +239,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Ambient_Region_Village_Day_Night" ID="{E679CA68-9A4D-4A42-9EC8-F15D406FF155}" ShortID="366889764">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
@@ -258,6 +279,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Ambient_Region_Forest_Day" ID="{03448605-D8E6-4A9E-B69F-3BED42543F9E}" ShortID="1034939892">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>
@@ -280,6 +304,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Ambient_Region_Forest_Night" ID="{7BE41016-EC89-420F-9D00-C4B40777CE27}" ShortID="444722178">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09FFD307-004A-40A9-8D99-EC7D801BE9BF}"/>

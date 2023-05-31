@@ -5,7 +5,9 @@
 			<ChildrenList>
 				<Event Name="Day" ID="{B1D6429B-F757-4BB8-B962-EA0B3700EDC9}">
 					<ChildrenList>
-						<Action Name="" ID="{C8B7AF97-9030-4B25-B852-C4149BCF497B}" ShortID="914029516"/>
+						<Action Name="" ID="{C8B7AF97-9030-4B25-B852-C4149BCF497B}" ShortID="914029516">
+							<ReferenceList/>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Night" ID="{9B0C78E4-E689-4929-BBCE-6CFF0C2ACB76}"/>
