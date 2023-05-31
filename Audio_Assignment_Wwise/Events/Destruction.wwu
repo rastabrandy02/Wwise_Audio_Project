@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5805196A-D82D-4B96-A5B4-2C08BB9F3BB1}" SchemaVersion="110" RootDocumentID="{99BAFE6C-6EE4-4C84-A6B8-35F70E80E5F5}" ParentDocumentID="{99BAFE6C-6EE4-4C84-A6B8-35F70E80E5F5}">
+	<Events>
+		<WorkUnit Name="Destruction" ID="{5805196A-D82D-4B96-A5B4-2C08BB9F3BB1}" OwnerID="{99BAFE6C-6EE4-4C84-A6B8-35F70E80E5F5}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Destruction_Rock" ID="{1958FDDA-CC0E-45EA-B5B8-553AA292D295}">
+					<ChildrenList>
+						<Action Name="" ID="{39696934-390C-498F-95B2-5D5872CAC0EA}" ShortID="220851033">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Destruction_Rock" ID="{44A9D54A-B8D7-4B40-A4F6-7C4E68DAED3F}" WorkUnitID="{E5E26FD0-83CA-42E7-944B-9F99629C228D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Destruction_VolcanincBoulder" ID="{2D598E9F-0FA3-417E-9152-4060FC9F4650}">
+					<ChildrenList>
+						<Action Name="" ID="{314C46E6-D6E3-4440-95CD-8E6F5F4E2569}" ShortID="26073452">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Destruction_VolcanincBoulder" ID="{8A68BD6F-5DCC-4922-A131-82C36A25F043}" WorkUnitID="{E5E26FD0-83CA-42E7-944B-9F99629C228D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Destroy_Crate" ID="{F5115ABD-56F6-42F9-8DF6-993AD8DBDBF4}">
+					<ChildrenList>
+						<Action Name="" ID="{928E3FAF-EC35-4075-AE0F-14BDA41F3ED0}" ShortID="977905397">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Destroy_Crate" ID="{155506C2-0AF9-4038-876B-43AAB5B96689}" WorkUnitID="{E5E26FD0-83CA-42E7-944B-9F99629C228D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Destroy_Barrel" ID="{FE18C0F0-9917-4414-9099-665F8F5E9917}">
+					<ChildrenList>
+						<Action Name="" ID="{9985A2E6-E7D8-4A1D-BC5D-493FB9182768}" ShortID="580977237">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Destroy_Barrel" ID="{8B88A1FB-01C6-4428-A7B3-9FFEDCAC3375}" WorkUnitID="{E5E26FD0-83CA-42E7-944B-9F99629C228D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

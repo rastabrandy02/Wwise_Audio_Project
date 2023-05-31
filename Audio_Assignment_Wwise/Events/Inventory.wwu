@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B3A6114E-8E22-4F5C-BC47-F53EABFF941F}" SchemaVersion="110" RootDocumentID="{99BAFE6C-6EE4-4C84-A6B8-35F70E80E5F5}" ParentDocumentID="{ADD77531-1AF2-4601-84E9-17DABE37EB6B}">
+	<Events>
+		<WorkUnit Name="Inventory" ID="{B3A6114E-8E22-4F5C-BC47-F53EABFF941F}" OwnerID="{ADD77531-1AF2-4601-84E9-17DABE37EB6B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Inventory_Close" ID="{882C4830-80EE-4FAF-A525-5F5F3BABF784}">
+					<ChildrenList>
+						<Action Name="" ID="{191DB412-5249-40DD-B59B-C82C58EE7765}" ShortID="1039478083">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Inventory_Close" ID="{5303E799-6558-452B-888A-D120E007DA99}" WorkUnitID="{AAC43FEF-10EF-46AD-AFBE-91F3442AD0F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Inventory_Scroll" ID="{0FB84942-140D-4EE0-A914-3A47292AF770}">
+					<ChildrenList>
+						<Action Name="" ID="{DBCFD14F-BB3B-4431-AACB-86B794FE031E}" ShortID="332247570">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Inventory_Scroll" ID="{80643AC5-BB41-469D-8846-75E72998E8C8}" WorkUnitID="{AAC43FEF-10EF-46AD-AFBE-91F3442AD0F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Inventory_Open" ID="{9D48F70F-CC46-4A00-A115-A2341A878D64}">
+					<ChildrenList>
+						<Action Name="" ID="{AF666A01-E9F4-4796-BCDC-A5831ED89B05}" ShortID="245563938">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Inventory_Open" ID="{E9FA2479-679B-4C16-BD6A-3482F897BC65}" WorkUnitID="{AAC43FEF-10EF-46AD-AFBE-91F3442AD0F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

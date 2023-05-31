@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D9CF10EB-8406-4DB6-852C-96E189B08B69}" SchemaVersion="110" RootDocumentID="{99BAFE6C-6EE4-4C84-A6B8-35F70E80E5F5}" ParentDocumentID="{99BAFE6C-6EE4-4C84-A6B8-35F70E80E5F5}">
+	<Events>
+		<WorkUnit Name="Ambient" ID="{D9CF10EB-8406-4DB6-852C-96E189B08B69}" OwnerID="{99BAFE6C-6EE4-4C84-A6B8-35F70E80E5F5}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Ambient_Background" ID="{FDC38AC4-53DE-4255-8706-C6FA64D41348}" PersistMode="Reference"/>
+				<WorkUnit Name="Ambience_Emitters" ID="{53E2DF4F-0335-4D1A-ADA0-54BE31F8A125}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

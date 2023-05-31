@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5845A907-6017-4909-9A9F-0E159ADCDA7A}" SchemaVersion="110" RootDocumentID="{99BAFE6C-6EE4-4C84-A6B8-35F70E80E5F5}" ParentDocumentID="{ADD77531-1AF2-4601-84E9-17DABE37EB6B}">
+	<Events>
+		<WorkUnit Name="QuestRoll" ID="{5845A907-6017-4909-9A9F-0E159ADCDA7A}" OwnerID="{ADD77531-1AF2-4601-84E9-17DABE37EB6B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_QuestRoll_Close" ID="{A3B1845E-60EB-400A-BA03-3AB22622D1B8}">
+					<ChildrenList>
+						<Action Name="" ID="{01C72F74-60E0-4A76-B6B3-E1E8E0E11FBF}" ShortID="690888693">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="QuestRoll_Close" ID="{F38BE877-E4BA-4242-B084-37510A4F1D7E}" WorkUnitID="{AAC43FEF-10EF-46AD-AFBE-91F3442AD0F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_QuestRoll_Open" ID="{DBAE4510-CD09-4543-AD1C-06C5DFD0F8FA}">
+					<ChildrenList>
+						<Action Name="" ID="{B16EC25E-87D7-464B-9FE6-C7DA02E81C93}" ShortID="290904458">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="QuestRoll_Open" ID="{288E3C9E-99D4-4F47-8B41-FC5F755CC61D}" WorkUnitID="{AAC43FEF-10EF-46AD-AFBE-91F3442AD0F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

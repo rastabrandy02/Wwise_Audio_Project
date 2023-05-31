@@ -9,6 +9,9 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Night" ID="{9B0C78E4-E689-4929-BBCE-6CFF0C2ACB76}"/>
+				<WorkUnit Name="UI" ID="{ADD77531-1AF2-4601-84E9-17DABE37EB6B}" PersistMode="Reference"/>
+				<WorkUnit Name="Destruction" ID="{5805196A-D82D-4B96-A5B4-2C08BB9F3BB1}" PersistMode="Reference"/>
+				<WorkUnit Name="Ambient" ID="{D9CF10EB-8406-4DB6-852C-96E189B08B69}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

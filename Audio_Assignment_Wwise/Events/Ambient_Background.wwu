@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FDC38AC4-53DE-4255-8706-C6FA64D41348}" SchemaVersion="110" RootDocumentID="{99BAFE6C-6EE4-4C84-A6B8-35F70E80E5F5}" ParentDocumentID="{D9CF10EB-8406-4DB6-852C-96E189B08B69}">
+	<Events>
+		<WorkUnit Name="Ambient_Background" ID="{FDC38AC4-53DE-4255-8706-C6FA64D41348}" OwnerID="{D9CF10EB-8406-4DB6-852C-96E189B08B69}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Ambient_Region_Forest" ID="{104F2876-C35A-4DDE-AEF1-2F97812B2FCC}">
+					<ChildrenList>
+						<Action Name="" ID="{0E810A64-FD4B-45A6-946A-78093709AA08}" ShortID="365592755">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient_Region_Forest" ID="{87F67A96-8733-4B4C-BCAF-AD39632E4610}" WorkUnitID="{78D445A4-CA8C-4005-A5F8-326784D9F981}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambient_Region_Desert" ID="{AC5C8C3C-5594-48AA-93F0-FB46F598D774}">
+					<ChildrenList>
+						<Action Name="" ID="{55DB4E84-5D4B-40C8-A5AB-285E36FF9866}" ShortID="395097770">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient_Region_Desert" ID="{293E9BE7-0F46-4758-8C0F-89522C94C1F8}" WorkUnitID="{78D445A4-CA8C-4005-A5F8-326784D9F981}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambient_Region_Village" ID="{6DAFD7E1-DBC3-4F1A-9A0E-7ACC4C0DB879}">
+					<ChildrenList>
+						<Action Name="" ID="{E1A5B888-1E5A-48C0-A7C3-0FCA49F404C6}" ShortID="14436951">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient_Region_Village" ID="{8F3C1DDD-E9C7-4FD3-AA71-1A889FC6FD6D}" WorkUnitID="{78D445A4-CA8C-4005-A5F8-326784D9F981}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambient_Region_PineForest" ID="{6BA59BC9-B0E5-4F25-8555-36736036BA3C}">
+					<ChildrenList>
+						<Action Name="" ID="{F0F5804C-BF6D-4C03-8B5C-8C5580615D7C}" ShortID="797478523">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient_Region_PineForest" ID="{7389BF0A-10C1-403F-AC53-74E9E15C70D5}" WorkUnitID="{78D445A4-CA8C-4005-A5F8-326784D9F981}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambient_Region_Cave" ID="{14376FC4-8CCA-426B-B482-394FD60140F5}">
+					<ChildrenList>
+						<Action Name="" ID="{78F5DE14-C477-4255-A2A4-97914021A961}" ShortID="444928243">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient_Region_Cave" ID="{A8CA2AC4-1B3F-4425-9F6A-B4A022988BFA}" WorkUnitID="{78D445A4-CA8C-4005-A5F8-326784D9F981}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambient_Region_Dungeon" ID="{B6E6164D-340F-4068-8E5F-94740C9BD474}">
+					<ChildrenList>
+						<Action Name="" ID="{1E983D0B-FDB0-49CF-BB91-3B407ADE0990}" ShortID="956425141">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient_Region_Dungeon" ID="{0313B092-5D25-4BDF-947E-180D12441F0B}" WorkUnitID="{78D445A4-CA8C-4005-A5F8-326784D9F981}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Ambient_Regions" ID="{6A3FBF5D-40A6-4803-A623-ECBB5B657621}">
+					<ChildrenList>
+						<Action Name="" ID="{1560C7C7-BFB2-46A4-8963-F05571F55FC0}" ShortID="852629061">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient_Regions" ID="{66057152-4894-4C81-AB2F-7F60AE83F35E}" WorkUnitID="{78D445A4-CA8C-4005-A5F8-326784D9F981}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
