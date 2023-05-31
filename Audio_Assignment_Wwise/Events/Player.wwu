@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8E92855F-F03D-49E3-ABDD-B0794462B372}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Player" ID="{8E92855F-F03D-49E3-ABDD-B0794462B372}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SoundBankSpecific" ID="{CC99E7C5-7429-4BB1-BF47-56BE232D055A}" ShortID="1022347626">
+					<ChildrenList>
+						<Folder Name="Player_Footstep" ID="{E16649FA-0866-47DC-88A7-5FB57B8B6F38}" ShortID="855741442">
+							<ChildrenList>
+								<Folder Name="Walk" ID="{7012762D-C98F-41FE-8A09-EF9F67542482}" ShortID="571310870">
+									<ChildrenList>
+										<Folder Name="Grass" ID="{C80CE62A-67E1-4270-9987-048BFA335F6C}" ShortID="718510569">
+											<ChildrenList>
+												<Event Name="BAS_Player_Footstep_grass_walk" ID="{202CC7C1-45C1-4CAB-8A91-20145C042D84}">
+													<ChildrenList>
+														<Action Name="" ID="{4C439B78-6F52-4900-8714-87B12941B7B7}" ShortID="58919408">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Player_Footstep_Grass" ID="{7754C8CE-62E1-4F56-80C0-B81BC831E8F2}" WorkUnitID="{70C30F59-9B73-45B1-B308-5B060D17B51B}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+											</ChildrenList>
+										</Folder>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
